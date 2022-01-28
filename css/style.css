@@ -2,6 +2,23 @@ body {
     font-family: sans-serif;
     text-align: center;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: #ddd;
+}
+.logo {
+    width: 120px;
+    margin: 20px;
+}
+#logo{
+    width: 100%;
+}
+header span {
+    align-self: center;
+    font-weight: bold;
 }
 .container{
     display: flex;
@@ -15,6 +32,7 @@ body {
     padding: 50px;
     box-sizing: border-box;
 }
+
 .caja-1{
     background-color: #f00;
 }
