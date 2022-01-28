@@ -1,5 +1,25 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    background-color: #ddd;
+    margin: auto;
+}
+.caja {
+    margin: 15px;
+    padding: 50px;
+}
+.caja-1{
+    background-color: #f00;
+}
+.caja-2{
+    background-color: #0f0;
+}
+.caja-3{
+    background-color: #00f;
 }
