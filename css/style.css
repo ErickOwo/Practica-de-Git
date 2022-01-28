@@ -13,6 +13,7 @@ body {
 .caja {
     margin: 15px;
     padding: 50px;
+    box-sizing: border-box;
 }
 .caja-1{
     background-color: #f00;
@@ -27,6 +28,12 @@ body {
     display: flex;
     width: 80%;
     justify-content: center;
-    background-color: #9d9;
-    margin: auto;
+    background-color: #ccc;
+    margin: 20px auto;
+    padding: 20px;
+}
+.selected {
+    background-color: #999;
+    opacity: .8;
+    border: 2px solid #000;   
 }
